@@ -1,0 +1,41 @@
+.movieCard{
+    display: inline-block;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    min-height: 300px;
+    min-width: 300px;
+    margin-left:  50px;
+    margin-top:  100px;
+    >.cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 350px;
+        width: 280px;
+        border-radius: 20px;
+        background-color: rgb(255, 255, 255);
+        transition: all 0.3s ease-in-out;
+        &:hover{
+            opacity: 0.6;
+            transform: scale(1.04);
+            >.card-title{
+                z-index: 20000;
+                color: white;
+                display: block;
+            }
+        }
+        
+        >img{
+            border-radius: 20px;
+            height: 400px;
+            width: 280px;
+        }
+
+        >.card-title{
+            // margin-top: -50px;
+            display: none;
+        }
+
+    }
+}

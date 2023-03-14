@@ -1,0 +1,53 @@
+.posterimage{
+    display: flex;
+    justify-content: center;
+    // background-position: center cover/cover;
+    align-items: center;
+    object-fit: cover;
+    height: 90%;
+    
+    >img{
+        height: 100%;
+        width: 0.01%;
+    }
+}
+
+.posterimage-overlay{
+    >.posterimage-title{
+        text-align: start;
+        margin-top: -250px;
+        font-size: 50px;
+        font-weight: bold;
+        margin-left: 50px;
+    }
+    >.posterimage-rumtime{
+        font-size: 30px;
+        font-weight: bold;
+        display: flex;
+        flex-wrap: wrap;
+        width: 400px;
+        text-align: start;
+        margin-left: 50px;
+        margin-top: 3px;
+
+    }
+}
+
+.posterimage_description{
+        display: flex;
+        margin-left: 50px;
+        margin-top: 6px;
+        flex-wrap: wrap;
+        width: 700px;
+        font-weight: bold;
+        font-size: 17px;
+        text-align: start;
+}
+
+.carousel .slide{
+    min-width: 100%;
+    margin: 0;
+    height: 85vh;
+    position: relative;
+    text-align: center;
+}

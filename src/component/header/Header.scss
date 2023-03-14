@@ -1,0 +1,34 @@
+.header{
+    height: 80px;
+    background-color: black;
+    display: flex;
+
+    >.headerleft{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+            >.header_icon{
+                height: 80px;
+                width: 120px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            >.Link{
+                font-size: 25px;
+                list-style: none;
+                margin-left: 40px;
+                color: white;
+                text-decoration: none;
+                :active{
+                    color: red;
+                }
+
+                &:hover{
+                    cursor: pointer;
+                    color: red;
+                }
+            }
+    }
+}
